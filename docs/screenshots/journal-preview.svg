@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#c7edf1"/>
+  <g fill="#15384b" font-family="Arial, sans-serif">
+    <text x="70" y="68" font-size="28" font-weight="700">NO<tspan fill="#f26d5b">-</tspan>KIT</text>
+    <text x="70" y="132" font-size="15" letter-spacing="3">YOUR FIELD NOTES</text>
+    <text x="70" y="220" font-size="65" font-weight="700">Make, test,</text>
+    <text x="70" y="285" font-size="65" font-weight="700">notice <tspan fill="#f26d5b">more.</tspan></text>
+  </g>
+  <g stroke="#15384b" stroke-width="4">
+    <rect x="70" y="355" width="205" height="94" rx="16" fill="#fffdf0"/>
+    <rect x="295" y="355" width="205" height="94" rx="16" fill="#fffdf0"/>
+    <rect x="520" y="355" width="205" height="94" rx="16" fill="#fffdf0"/>
+    <rect x="70" y="500" width="655" height="170" rx="22" fill="#fffdf0" transform="rotate(-1 397 585)"/>
+  </g>
+  <g fill="#15384b" font-family="Arial, sans-serif">
+    <text x="97" y="390" font-size="30" font-weight="700">1</text><text x="97" y="420" font-size="13">DISCOVERY</text>
+    <text x="322" y="390" font-size="30" font-weight="700">1</text><text x="322" y="420" font-size="13">OUTSIDE TEST</text>
+    <text x="547" y="390" font-size="30" font-weight="700">3</text><text x="547" y="420" font-size="13">ATTEMPTS</text>
+    <circle cx="120" cy="555" r="25" fill="#d9579b" stroke="#15384b" stroke-width="3"/>
+    <text x="165" y="555" font-size="14">WIND HACKER · TODAY</text>
+    <text x="165" y="595" font-size="28" font-weight="700">Your first field note</text>
+    <text x="165" y="630" font-size="15">Prediction: I think it will turn into the wind.</text>
+  </g>
+</svg>

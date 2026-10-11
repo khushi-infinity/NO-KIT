@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Children making an invention from reused materials</title>
+  <desc id="desc">A warm playful illustration of two children crafting at a table with cardboard, paper, a bottle, tape, and a wind spinner.</desc>
+  <rect width="1200" height="720" fill="#f8c37a"/>
+  <circle cx="1010" cy="110" r="72" fill="#ffd85a"/>
+  <path d="M0 450 Q210 380 410 450 T820 440 T1200 430 V720 H0Z" fill="#ef8069"/>
+  <path d="M0 515 Q180 455 360 520 T720 500 T1200 485 V720 H0Z" fill="#b8df58"/>
+  <path d="M110 535 Q200 455 300 530 L360 650 H50Z" fill="#9b5cc7" opacity=".75"/>
+  <path d="M875 205 L875 430 M875 225 L1015 285 M875 260 L745 305" fill="none" stroke="#15384b" stroke-width="13" stroke-linecap="round"/>
+  <path d="M1015 285 C1080 245 1115 305 1060 345 C1015 375 990 318 1015 285Z" fill="#f26d5b" stroke="#15384b" stroke-width="9"/>
+  <path d="M745 305 C680 265 650 325 700 360 C750 390 770 335 745 305Z" fill="#ffd04d" stroke="#15384b" stroke-width="9"/>
+  <path d="M320 425 Q460 355 600 425 L650 570 H260Z" fill="#d9579b" stroke="#15384b" stroke-width="11"/>
+  <path d="M400 330 Q395 230 475 200 Q555 230 530 340Z" fill="#f26d5b" stroke="#15384b" stroke-width="11"/>
+  <circle cx="462" cy="205" r="58" fill="#9b5cc7" stroke="#15384b" stroke-width="11"/>
+  <circle cx="438" cy="207" r="7" fill="#15384b"/><circle cx="484" cy="207" r="7" fill="#15384b"/>
+  <path d="M442 235 Q462 252 483 235" fill="none" stroke="#15384b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M700 440 Q820 360 930 430 L970 570 H660Z" fill="#ff9a43" stroke="#15384b" stroke-width="11"/>
+  <path d="M745 350 Q730 255 810 220 Q895 250 870 360Z" fill="#ffd04d" stroke="#15384b" stroke-width="11"/>
+  <circle cx="800" cy="220" r="58" fill="#8b5a3c" stroke="#15384b" stroke-width="11"/>
+  <circle cx="780" cy="220" r="7" fill="#15384b"/><circle cx="825" cy="220" r="7" fill="#15384b"/>
+  <path d="M780 250 Q802 264 824 248" fill="none" stroke="#15384b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M190 555 H1030 V670 H160Z" fill="#c86e4a" stroke="#15384b" stroke-width="12"/>
+  <path d="M225 505 H390 V590 H225Z" fill="#ff9a43" stroke="#15384b" stroke-width="10" transform="rotate(-8 300 550)"/>
+  <path d="M515 500 L600 460 L650 540 L565 580Z" fill="#fffdf0" stroke="#15384b" stroke-width="10"/>
+  <path d="M720 495 Q760 450 800 495 L800 590 H720Z" fill="#8acbd0" stroke="#15384b" stroke-width="10"/>
+  <circle cx="870" cy="530" r="42" fill="#ffd04d" stroke="#15384b" stroke-width="10"/><circle cx="870" cy="530" r="17" fill="#f26d5b" stroke="#15384b" stroke-width="7"/>
+  <path d="M100 640 Q140 610 180 640 M1010 640 Q1050 610 1090 640" fill="none" stroke="#15384b" stroke-width="8" stroke-linecap="round"/>
+</svg>

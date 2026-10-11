@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#c7edf1"/>
+  <g fill="#15384b" font-family="Arial, sans-serif">
+    <text x="70" y="68" font-size="28" font-weight="700">NO<tspan fill="#f26d5b">-</tspan>KIT</text>
+    <text x="70" y="130" font-size="15" letter-spacing="3">THE NO-KIT SHELF OF POSSIBILITIES</text>
+    <text x="70" y="210" font-size="62" font-weight="700">Pick a problem.</text>
+    <text x="70" y="275" font-size="62" font-weight="700">Make the <tspan fill="#f26d5b">answer.</tspan></text>
+    <rect x="890" y="125" width="220" height="48" rx="13" fill="#b8df58" stroke="#15384b" stroke-width="3"/>
+    <text x="920" y="155" font-size="13">◎ 8 FIELD TESTS</text>
+  </g>
+  <g stroke="#15384b" stroke-width="4">
+    <rect x="70" y="345" width="315" height="280" rx="24" fill="#fffdf0"/>
+    <rect x="425" y="345" width="315" height="280" rx="24" fill="#fffdf0" transform="rotate(1 580 485)"/>
+    <rect x="780" y="345" width="315" height="280" rx="24" fill="#fffdf0" transform="rotate(-1 935 485)"/>
+  </g>
+  <g fill="#15384b" font-family="Arial, sans-serif">
+    <circle cx="125" cy="410" r="35" fill="#ffd04d" stroke="#15384b" stroke-width="4"/><text x="176" y="418" font-size="25" font-weight="700">WIND HACKER</text>
+    <text x="105" y="485" font-size="18">Show which way</text><text x="105" y="510" font-size="18">the wind is coming.</text>
+    <rect x="105" y="555" width="230" height="43" rx="12" fill="#15384b"/><text x="172" y="583" font-size="15" fill="#fffdf0">PLAY THIS →</text>
+    <circle cx="480" cy="410" r="35" fill="#d9579b" stroke="#15384b" stroke-width="4"/><text x="530" y="418" font-size="25" font-weight="700">SHADOW CLOCK</text>
+    <text x="460" y="485" font-size="18">Use sunlight to tell</text><text x="460" y="510" font-size="18">a story about time.</text>
+    <text x="460" y="575" font-size="13">GOOD OUTSIDE · 20 MIN</text>
+    <circle cx="835" cy="410" r="35" fill="#b8df58" stroke="#15384b" stroke-width="4"/><text x="885" y="418" font-size="25" font-weight="700">RAIN MEASURER</text>
+    <text x="815" y="485" font-size="18">Compare how much</text><text x="815" y="510" font-size="18">rain falls.</text>
+    <text x="815" y="575" font-size="13">GOOD OUTSIDE · 10 MIN</text>
+  </g>
+</svg>

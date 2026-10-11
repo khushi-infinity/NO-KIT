@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f0b866"/>
+  <circle cx="145" cy="105" r="58" fill="#fff0a0" stroke="#15384b" stroke-width="8"/>
+  <path d="M0 410 Q180 365 360 410 T720 400 T1200 390 V760 H0Z" fill="#1c6848" stroke="#15384b" stroke-width="8"/>
+  <path d="M0 515 Q180 455 360 515 T720 500 T1200 490 V760 H0Z" fill="#2c8452"/>
+  <g stroke-linecap="round">
+    <path d="M50 735 Q50 600 30 540 M55 735 Q80 620 120 575 M140 735 Q150 590 190 530 M230 735 Q210 610 245 570 M320 735 Q340 580 390 530 M420 735 Q400 600 450 555 M530 735 Q560 590 600 535 M650 735 Q640 605 690 560 M760 735 Q790 580 830 530 M880 735 Q860 610 910 565 M990 735 Q1020 580 1060 535 M1110 735 Q1090 610 1160 565" stroke="#a5d75c" stroke-width="18" fill="none"/>
+    <path d="M35 735 Q30 630 5 590 M190 735 Q180 630 220 575 M390 735 Q380 620 430 565 M600 735 Q610 620 660 570 M820 735 Q800 620 850 575 M1040 735 Q1055 620 1100 570" stroke="#80bd4d" stroke-width="12" fill="none"/>
+  </g>
+  <g fill="#f5f1d5" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="245" font-size="16" letter-spacing="5">NO-KIT FIELD NOTE 001</text>
+    <text x="600" y="325" font-size="70" font-weight="700">TOUCH GRASS</text>
+    <text x="600" y="372" font-size="26">literally.</text>
+    <text x="600" y="420" font-size="16">move your pointer through the field</text>
+  </g>
+  <rect x="1010" y="35" width="52" height="52" rx="26" fill="#e56a57" stroke="#f5f1d5" stroke-width="5"/>
+  <text x="1026" y="70" fill="#f5f1d5" font-size="27">×</text>
+</svg>
