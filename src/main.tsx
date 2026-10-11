@@ -77,31 +77,35 @@ function MusicToggle() {
   const timer = useRef<number | null>(null)
   const note = useRef(0)
   const audioStarted = useRef(false)
-  const gestureHandler = useRef<(() => void) | null>(null)
   const melody = [261.63, 329.63, 392, 523.25, 440, 392, 329.63, 293.66, 261.63, 329.63, 440, 587.33, 523.25, 440, 392, 329.63]
 
   const startMusic = () => {
-    if (audioStarted.current) return
+    if (audioStarted.current || timer.current) return
     const AudioContextClass = window.AudioContext || (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
     if (!AudioContextClass) return
     const context = new AudioContextClass()
     audioContext.current = context
-    audioStarted.current = true
     void context.resume().then(() => {
-      if (!audioStarted.current) return
+      if (audioContext.current !== context) return
+      audioStarted.current = true
       setPlaying(true)
       playNote()
       timer.current = window.setInterval(playNote, 270)
-      if (gestureHandler.current) window.removeEventListener('pointerdown', gestureHandler.current)
-    }).catch(() => { audioStarted.current = false; setPlaying(false) })
+    }).catch(() => {
+      if (audioContext.current === context) {
+        audioContext.current = null
+        audioStarted.current = false
+        void context.close()
+      }
+      setPlaying(false)
+    })
   }
 
   useEffect(() => {
-    const startOnFirstGesture = () => { startMusic() }
-    gestureHandler.current = startOnFirstGesture
-    startMusic()
-    window.addEventListener('pointerdown', startOnFirstGesture)
-    return () => { window.removeEventListener('pointerdown', startOnFirstGesture); gestureHandler.current = null; if (timer.current) window.clearInterval(timer.current); audioContext.current?.close() }
+    return () => {
+      if (timer.current) window.clearInterval(timer.current)
+      void audioContext.current?.close()
+    }
   }, [])
 
   const playNote = () => {
